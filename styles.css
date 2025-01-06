@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('google-sans/ProductSans-Regular.ttf') format('truetype');
+}
+
+* {
+    background-color: rgb(239, 242, 246);r
+ }
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Google Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+
+h3.colorclass {
+    font-family: 'Google Sans';
+}
+
+#color-section {
+   display: block;
+}
+
+
+.color-elements {
+    margin: 0 20px;
+}
+ul {
+    margin: 0 30px;
+}
+
+li {
+    margin: 0 10px; /* Adds some space between the list items */
+    display: inline; /* Ensures list items are inline */
+    float: left; /* Removes float */
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left !important;
+    font-weight: 500;
+    margin-left: 50px;
+    clear: both; /* Ensures h2 appears below the floated elements */
+}
+
+#orange-box {
+    background-color: rgb(240, 221, 187);
+}
+
+#green-box {
+    background-color: rgb(187, 240, 221);
+}
+
+#purple-box {
+    background-color: rgb(221, 187, 240);
+}
+
+#blue-box {
+    background-color: rgb(187, 221, 240);
+}
+
+.color-box {
+    width: 300px;
+    height: 300px;
+}
+
+
+.font-section{
+    margin: 50px 30px;
+    
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.arial {
+    font-family: arial;
+}
+
+.Times-New-Roman {
+    font-family: 'Times New Roman';
+}
+
+.Georgia {
+    font-family: georgia;
+}
+
+table {
+    margin: 0 auto !important;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: rgb(164, 225, 225);
+}
+
+tr h1, tr h3, tr p {
+    background-color: rgb(164, 225, 225);
+}

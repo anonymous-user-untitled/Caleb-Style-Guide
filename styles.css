@@ -5,7 +5,7 @@
 }
 
 * {
-    background-color: rgb(239, 242, 246);r
+    background-color: rgb(174, 201, 236);r
  }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -32,13 +32,14 @@ h3.colorclass {
     margin: 0 10px;
 }
 ul {
-    margin: 0 0px !important;
+    text-align: center; !important;
 }
 
 li {
     margin: 0 10px; /* Adds some space between the list items */
     display: inline; /* Ensures list items are inline */
     float: left; /* Removes float */
+   
 }
 
 h2 {
@@ -106,3 +107,59 @@ table, tr, td{
 tr h1, tr h3, tr p {
     background-color: rgb(164, 225, 225);
 }
+
+.button-flat {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: black;
+    background-color: lightblue;
+}
+
+.button-flat:hover {
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.button-flat:active {
+    color: white;
+    background-color: black;
+}
+
+.skeuomorphic {
+    border: 2px solid #0c960c;
+    text-transform: uppercase;
+    border-radius: 100px;
+    color: #F8F8F8;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+    font-size: 40px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+  }
+  
+  .skeuomorphic:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+    cursor: pointer;
+  }
+  
+  .skeuomorphic:active {
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0c960c;
+    background: linear-gradient(#0c960c, #0ebc0e);
+    cursor: pointer;
+  }
